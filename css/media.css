@@ -1,0 +1,85 @@
+/******************************************/
+/* MEDIA QUERIES */
+/******************************************/
+@media (max-width: 960px) {
+  .text--xxl {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .navbar .main-menu {
+    display: none;
+  }
+
+  .navbar .hamburger-btn {
+    display: block;
+  }
+
+  .hero .container {
+    background: url(../img/hero-bg-mobile.png) no-repeat;
+    background-size: 350px;
+    background-position: bottom;
+    height: 770px;
+  }
+
+  .hero .hero-content,
+  .hero .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero .hero-buttons .btn {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  }
+
+  .text--xl {
+    font-size: 1.9rem;
+  }
+
+  .text--lg {
+    font-size: 1.5rem;
+  }
+
+  .text--md {
+    font-size: 1.1rem;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials-grid,
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-heading {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-form {
+    grid-column: 1 / -1;
+  }
+
+  /* .footer-grid > div {
+    text-align: center;
+  } */
+
+  .footer-card {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .text--xxl {
+    font-size: 2rem;
+  }
+}
