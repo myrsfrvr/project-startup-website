@@ -1,7 +1,10 @@
-Startup Company Website
+# Startup Company Website
 
-Overview.
-- This repository contains the source code for the website of a startup company. It uses Flexbox, CSS Grid; has a functional accordion element, an input form. This website is currently optimized for desktop viewing only. A responsive design for mobile and tablet devices is planned for future updates.
- 
-![Screenshot of the website](./Screenshot.png)
+## Overview.
+This repository contains the source code for the website of a startup company. It uses Flexbox, CSS Grid; has a functional accordion element, an input form. This website is optimized for desktop and mobile viewing. 
 
+ ### Screenshot of the desktop version of the website
+![Screenshot of the website](./screenshot-desktop.png)
+
+ ### Screenshot of the mobile version of the website
+![Screenshot of the website](./screenshot-mobile.png)
